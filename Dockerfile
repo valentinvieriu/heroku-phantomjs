@@ -4,7 +4,7 @@ FROM heroku/cedar:14
 # Internally, we arbitrarily use port 3000
 ENV PORT 3000
 # Which version of node?
-ENV NODE_ENGINE 4.3.1
+ENV NODE_ENGINE 7.3.0
 # Locate our binaries
 ENV PATH /app/heroku/node/bin/:/app/user/node_modules/.bin:/app/heroku/phantomjs-2.1.1-linux-x86_64/bin:$PATH
 
